@@ -1,0 +1,18 @@
+Criar as tabelas Funcionario e Ingrediente
+Funcionario
+nome
+atividade
+
+Ingrediente
+nome
+dataValidade
+
+Rafaela Adriana Santos Vieira10:06
+
+Funcionario
+nome -> varchar(30)
+atividade -> varchar(30)
+
+Ingrediente
+nome -> varchar(30)
+dataValidade -> datetime
