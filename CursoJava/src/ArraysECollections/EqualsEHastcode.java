@@ -3,13 +3,13 @@ package ArraysECollections;
 public class EqualsEHastcode {
 	public static void main(String[] args) {
 		
-		Usuários U1 = new Usuários();
+		Usuarios U1 = new Usuarios();
 		U1.nome = "Melo";
 		U1.email="Tirameloboy17@gmail.com";
-		Usuários U2 = new Usuários();
+		Usuarios U2 = new Usuarios();
 		U2.nome = "Melo";
 		U2.email="Tirameloboy17@gmail.com";
-		Usuários U3 = new Usuários();
+		Usuarios U3 = new Usuarios();
 		U3.nome = "Melo";
 		U3.email="Tirameloboy17@gmail.com";
 		
