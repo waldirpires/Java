@@ -28,6 +28,7 @@ public class Automovel {
         boolean b = this.donos.removeIf(pro -> pro.cpf.equals(cpf));
         if(b){
             System.out.println("Removido");
+            return;
         }
         System.out.println("cpf não listado");
    }
