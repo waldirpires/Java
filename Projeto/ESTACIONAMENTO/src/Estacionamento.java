@@ -38,7 +38,7 @@ public class Estacionamento {
 
     private Automovel pesquisar(String placa){
             for(Automovel a : automoveis){
-                if (a.getPlaca().equals(placa)){
+                if (a.getPlaca().equalsIgnoreCase(placa)){
                     return a;
                 }
             }
