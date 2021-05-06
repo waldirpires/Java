@@ -10,7 +10,7 @@ public class Automovel {
    private int ano, km; 
    private float valor;
    private Proprietario proprietario;
-   static List<Proprietario> donos = new ArrayList<>();
+   List<Proprietario> donos = new ArrayList<>();
    Automovel(String marca, String modelo,int ano,int km,float valor){
        this.marca = marca;
        this.modelo = modelo;
