@@ -53,7 +53,7 @@ public class PrincipalProxy {
                 while((c1.get(Calendar.MINUTE)-min)<=3 && i !=4){
                     
                     c1 = Calendar.getInstance();
-                    if((c1.get(Calendar.MINUTE)-min)>=0){
+                    if((c1.get(Calendar.MINUTE)-min)>=3){
                         min = c1.get(Calendar.MINUTE);
                         L = new Scanner(System.in);
                         System.out.println("Entre com o nome e o Cpf");
