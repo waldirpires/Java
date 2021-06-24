@@ -22,7 +22,7 @@ public class validadarCliente {
     }
     
     public boolean validarCliente(ClienteBanco cliente,String cpf,String nome){
-        if(cliente.getCpf().equalsIgnoreCase(cpf.replaceAll(" ", "")) && cliente.getNome().equalsIgnoreCase(nome.replaceAll(" ", ""))){
+        if(cliente.getCpf().replaceAll(" ", "").equalsIgnoreCase(cpf.replaceAll(" ", "")) && cliente.getNome().replaceAll(" ", "").equalsIgnoreCase(nome.replaceAll(" ", ""))){
             return true;
         } else return false;
     }
