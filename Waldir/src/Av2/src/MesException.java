@@ -5,7 +5,7 @@ public class MesException extends RuntimeException{
         this.mes = atributo;
     }
     
-    public String getMenssage(){
+    public String getMessage(){
         return String.format("Exceção gerada pelo atributo " + mes);
     }
 }

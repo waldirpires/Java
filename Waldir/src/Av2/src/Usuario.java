@@ -45,4 +45,10 @@ public void setNome(String nome) {
     this.nome = nome;
 }
 
+@Override
+public String toString() {
+    return "Usuario [AnoNasc=" + AnoNasc + ", idade=" + idade + ", mesNas=" + mesNas + ", nome=" + nome + "]";
+}
+
+
 }

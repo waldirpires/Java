@@ -5,7 +5,7 @@ public class NomeException extends RuntimeException {
         this.nome = atributo;
     }
     
-    public String getMenssage(){
+    public String getMessage(){
         return String.format(nome+" ou está nulo ou vazio");
     }
 }

@@ -6,7 +6,7 @@ public class AnoException  extends RuntimeException{
         this.ano = ano;
     }
     
-    public String getMenssage(){
+    public String getMessage(){
         return String.format("Exceção gerada pelo atributo " + ano);
     }
 }

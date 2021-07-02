@@ -5,7 +5,7 @@ public class IdadeException extends RuntimeException {
         this.idade = atributo;
     }
     
-    public String getMenssage(){
+    public String getMessage(){
         return String.format("Exceção gerada pelo atributo " + idade);
     }
 }
