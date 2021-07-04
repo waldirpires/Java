@@ -8,7 +8,7 @@ public class Validar {
             throw new IdadeException("idade");
         }
 
-        if(user.getAnoNasc() < 1980 || user.getAnoNasc() == Calendar.getInstance().getWeekYear()){
+        if(user.getAnoNasc() < 1980 || user.getAnoNasc() == Calendar.getInstance().getWeekYear()) { 
             throw new AnoException("Ano");
         }
 
@@ -21,6 +21,6 @@ public class Validar {
         }
 
         } 
-    }
+    } // Waldir: identação
 
 
