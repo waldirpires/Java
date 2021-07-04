@@ -22,7 +22,7 @@ public class App {
             l = new Scanner(System.in);
             String nome = l.nextLine();
             user.setNome(nome);
-            valid.validarUsuario(user);
+            valid.validarUsuario(user); // catch?
 
         
         
